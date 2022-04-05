@@ -9,6 +9,7 @@ import {
   Route,
   NavLink,
   BrowserRouter as Router,
+  Navigate,
 } from "react-router-dom";
 
 const App = () => {
@@ -34,6 +35,8 @@ const App = () => {
             <Route exact path="/" element={<Home />} />
             <Route path="/SEPractice" element={<SEPractice />} />
             <Route path="/SubmitArticle" element={<SubmitArticle />} />
+            <Route exact path="/404" element={<NotFoundPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
       </div>
