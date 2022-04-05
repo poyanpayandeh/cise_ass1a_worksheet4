@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+
 const SubmissionForm = () => {
   const { register, handleSubmit } = useForm();
   const [result, setResult] = useState("");

@@ -6,7 +6,7 @@ const optionItems = SEPractices.map((SEPractice) => (
 const Dropdown = () => {
   return (
     <div>
-      <option value="">Select an SE Practice</option>
+      <option value="">Select SE practice</option>
       <select>{optionItems}</select>
     </div>
   );
