@@ -1,5 +1,3 @@
-import { useMountedLayoutEffect } from "react-table";
-
 const tablecolumns = [
   {
     Header: "Title",
@@ -27,4 +25,4 @@ const tablecolumns = [
   },
 ];
 
-useMountedLayoutEffect.exports = tablecolumns;
+module.exports = tablecolumns;
