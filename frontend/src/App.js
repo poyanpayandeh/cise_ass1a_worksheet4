@@ -3,13 +3,13 @@ import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/Submit-Article";
 import NotFoundPage from "./pages/404";
+import "./index.css";
 
 import {
   Routes,
   Route,
   NavLink,
   BrowserRouter as Router,
-  Navigate,
 } from "react-router-dom";
 
 const App = () => {
